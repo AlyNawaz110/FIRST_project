@@ -1,0 +1,485 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#homesection {
+    background-image: url(https://c1.wallpaperflare.com/preview/449/161/140/lower-kachura-lake-shangrila-lake-skardu-pakistan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.main_parent {
+    /* background-color: red; */
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.list li {
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.sign {
+    list-style: none;
+    display: flex;
+}
+
+.sign li {
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.one {
+    text-align: center;
+    margin-top: 220px;
+    color: white;
+}
+
+.one h1 {
+    font-size: 35px;
+}
+
+.one p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.one button {
+    width: 180px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: 3px solid gold;
+}
+
+#card {
+    width: 100%;
+    height: 120vh;
+    /* background-color: red; */
+
+}
+
+.cardh {
+    text-align: center;
+    font-size: 30px;
+}
+
+.cardj {
+    color: rgba(255, 217, 0, 0.64);
+}
+
+.child_card {
+    /* background-color: yellow; */
+    width: 96%;
+    height: 90vh;
+    margin: 0% auto;
+    display: flex;
+}
+
+.child1 {
+    /* background-color: blue; */
+    background-image: url(./img/Group\ 933\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 590px;
+    height: 85vh;
+}
+
+.child2 {
+    /* background-color: pink; */
+    width: 590px;
+    height: 80vh;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.child2 span{
+    border-bottom: 2px solid red;
+}
+
+.malik__one{
+    width: 100%;
+    padding: 8px;
+}
+
+.Bhai_1{
+    padding: 15px;
+    width: 89%;
+    margin-left: 24px;
+    margin-bottom: 33px;
+
+}
+
+
+#arrival {
+    width: 45%;
+    margin-left: 4%;
+    padding: 15px 35px;
+    margin-top: 1%;
+    margin-bottom: 33px;
+}
+
+.btn__htl {
+    width: 95%;
+    margin-left: 4%;
+    padding: 10px 20px;
+    margin-top: 5%;
+    background-color: yellow;
+}
+
+#kgf {
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 60vh;
+}
+
+.kgf1 {
+    /* background-color: brown; */
+    width: 95%;
+    height: 50vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.kgf11 {
+    font-size: 30px;
+}
+
+.kgf12 {
+    background-image: url(./img/autumn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kgf13 {
+    background-image: url(./img/winter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kgf14 {
+    background-image: url(./img/spring.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bacha-party {
+    /* background-color: chartreuse; */
+
+}
+
+#Bacha-party {
+    /* background-color: blue; */
+    width: 100%;
+    height: 130vh;
+    margin: 0 auto;
+}
+
+.Bacha-party1 {
+    /* background-color: greenyellow; */
+    height: 80vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    margin: 0 auto;
+
+
+}
+
+.bacha-party-sons {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    /* background-color: brown; */
+    min-height: 120vh;
+}
+
+.party1 {
+    /* background-color: chocolate; */
+    background-image: url(/img/Group\ 933.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.party2 {
+    /* background-color: yellowgreen; */
+    background-image: url(/img/hking.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.party3 {
+    /* background-color: gray; */
+    background-image: url(/img/event.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Bacha-party2 {
+    /* background-color: pink; */
+    width: 100%;
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    row-gap: 10px;
+
+}
+
+.partyone {
+    /* background-color: red; */
+    background-image: url(/img/10001.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.partytwo {
+    /* background-color: crimson; */
+    background-image: url(/img/121212.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#DaDa11 {
+    width: 90%;
+    height: 90vh;
+    /* background-color: blueviolet; */
+    font-size: 33px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+.DaDa {
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    /* background-color: blue; */
+    margin-top: 50px;
+}
+
+.DaDa2 {
+    /* background-color: black; */
+    background-image: url(./img/skardu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.DaDa3 {
+    /* background-color: red; */
+background-image: url(/img/313.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.DaDa4 {
+    background-color: gray;
+background-image: url(/img/deosi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.DaDa2 h2{
+text-align: center;
+/* padding-top: 245px; */
+margin-top: 320px;
+font-size: 30px;
+background-color:gray
+
+
+}
+.DaDa3 h2{
+    text-align: center;
+    margin-top: 320px;
+    font-size: 30px;
+    background-color: gray
+}
+
+.DaDa4 h2{
+    text-align: center;
+margin-top: 320px;
+font-size: 30px;
+background-color: gray;
+color: white;
+}
+
+.para_parent{
+    /* background-color: red; */
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+}
+#Agam{
+    width: 100%;
+    height: 90vh;
+    margin: 0 auto;
+    /* background-color: pink; */
+    
+}
+#Agam h1{
+font-size: 65px;
+margin-left: 62px;
+}
+.agam1{
+    width: 90%;
+    height: 70vh;
+    /* background-color: red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.agamone{
+    width: 48%;
+    height: 55vh;
+    background-color: aqua;
+    /* margin-left: 45px; */
+    background-image: url(/img/deosi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.agamtwo{
+    width: 48%;
+    height: 60vh;
+    /* background-color: brown; */
+ font-size: 30px;  
+ font-style: italic; 
+}
+.agamtwo li{
+list-style: none;
+font-size: 15px;
+margin-top: 30px;
+font-style: normal;
+}
+#joDI{
+    width: 100%;
+    height: 90vh;
+    /* background-color: yellow; */
+    display: flex;
+}
+.jodione{
+    width: 48%;
+    height: 55vh;
+    /* background-color: chartreuse; */
+    margin-left: 60px;
+    font-size: 30px;
+    font-style: italic;
+    list-style: none;
+    
+}
+.joditwo{
+    width: 45%;
+    height: 55vh;
+    /* background-color: crimson; */
+    margin-left: 15px;
+    background-image: url(/img/585858.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jodione li{
+    list-style: none;
+    margin-top: 30px;
+    font-style: normal;
+    color: red;
+}
+.malik{
+    width: 100%;
+    height: 90vh;
+    background-color: gray;
+    background-image: url(/img/54545400.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.malik1{
+    width: 100%;
+    height: 40vh;
+    padding-top: 50px;
+    /* background-color: blue; */
+    text-align: center;
+    margin-top: 50px;
+    
+    
+    
+    
+}
+.malik1 input{
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+    font-size: 25px;
+    border: 3px solid black;
+    
+}
+.malik1 button{
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: transparent;
+    border: 3px solid black;
+}
+.gb{
+    width: 100%;
+    height: 60vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+
+}
+.gb li{
+    margin-top: 30px;
+}
+.gb_one{
+    width: 30%;
+    height: 50vh;
+    /* background-color: brown; */
+    /* text-align: center; */
+    font-size: 20px;
+    
+}
+
+
+.gb_two{
+    width: 30%;
+    height: 50vh;
+    /* background-color: rgb(42, 165, 54); */
+    /* text-align: center; */
+    font-size: 20px;
+}
+
+
+.gb_three{
+    width: 30%;
+    height: 50vh;
+    /* background-color: rgb(54, 42, 165); */
+    /* text-align: center; */
+    font-size: 20px;
+}
+
